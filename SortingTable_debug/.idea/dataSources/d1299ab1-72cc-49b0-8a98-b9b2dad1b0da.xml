@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="sortedTables">
+  <database-model serializer="dbm" dbms="DERBY" family-id="DERBY" format-version="4.17">
+    <root id="1">
+      <ServerVersion>10.14.1.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ADMIN">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="APP"/>
+    <schema id="4" parent="1" name="NULLID"/>
+    <schema id="5" parent="1" name="SQLJ"/>
+    <schema id="6" parent="1" name="SYS"/>
+    <schema id="7" parent="1" name="SYSCAT"/>
+    <schema id="8" parent="1" name="SYSCS_DIAG"/>
+    <schema id="9" parent="1" name="SYSCS_UTIL"/>
+    <schema id="10" parent="1" name="SYSFUN"/>
+    <schema id="11" parent="1" name="SYSIBM"/>
+    <schema id="12" parent="1" name="SYSPROC"/>
+    <schema id="13" parent="1" name="SYSSTAT"/>
+    <table id="14" parent="2" name="SAVES"/>
+    <table id="15" parent="2" name="SAVE_VALUES"/>
+    <column id="16" parent="14" name="SAVE_ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
+    </column>
+    <column id="17" parent="14" name="DATE">
+      <Position>2</Position>
+      <DataType>DATE|91s</DataType>
+    </column>
+    <column id="18" parent="14" name="TIME">
+      <Position>3</Position>
+      <DataType>TIME|92s</DataType>
+    </column>
+    <index id="19" parent="14" name="SAVES_SAVE_ID_UINDEX">
+      <ColNames>SAVE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="20" parent="14" name="SQL191222142727930">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SAVE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="21" parent="14" name="SAVES_PK">
+      <ColNames>SAVE_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="22" parent="15" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DefaultExpression>AUTOINCREMENT: start 1 increment 1</DefaultExpression>
+    </column>
+    <column id="23" parent="15" name="VALUE">
+      <Position>2</Position>
+      <DataType>BIGINT|-5s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="15" name="SAVE_ID">
+      <Position>3</Position>
+      <DataType>INTEGER|4s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="25" parent="15" name="SAVE_VALUES_ID_UINDEX">
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="26" parent="15" name="SQL191222152133410">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="27" parent="15" name="SQL191222152133370">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SAVE_ID</ColNames>
+    </index>
+    <key id="28" parent="15" name="SAVE_VALUES_PK">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="29" parent="15" name="SAVE_VALUES_SAVES_SAVE_ID_FK">
+      <ColNames>SAVE_ID</ColNames>
+      <RefTableName>SAVES</RefTableName>
+      <RefKeyName>SAVES_PK</RefKeyName>
+      <RefColNames>SAVE_ID</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

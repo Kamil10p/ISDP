@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83a47f92-a98b-44f4-b2eb-a8d39ef907ec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sortedTables" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sortedTables" type="feb32156:DbDataSourceImpl" />
+        <item name="ADMIN: schema" type="12aa88c4:DerbyImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sortedTables" type="feb32156:DbDataSourceImpl" />
+        <item name="ADMIN: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="SAVE_VALUES: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sortedTables" type="feb32156:DbDataSourceImpl" />
+        <item name="ADMIN: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="SAVES: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VAf9BBQg5azRuWaagPj0On1DP8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="derby" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn exec" />
+      <command value="mvn exec:java" />
+      <command value="mvn exec:java 10" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.lodz.p.it.isdp.Start" />
+      <module name="SortingTable_debug" />
+      <option name="PROGRAM_PARAMETERS" value="5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.lodz.p.it.isdp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:sortedTables" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:sortedTables" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@6ae6a222" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:sortedTables" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@71eac662" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:sortedTables" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@46315478" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83a47f92-a98b-44f4-b2eb-a8d39ef907ec" name="Default Changelist" comment="" />
+      <created>1576700669123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576700669123</updated>
+      <workItem from="1576700687335" duration="6840000" />
+      <workItem from="1576760099605" duration="798000" />
+      <workItem from="1576765988281" duration="4783000" />
+      <workItem from="1576842610994" duration="3701000" />
+      <workItem from="1576932973629" duration="8093000" />
+      <workItem from="1577016688040" duration="12064000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="212" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577028698448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="212" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577028698448" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1577029454894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577029454894" />
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576843016207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="195" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1576843016207" />
+    <state width="391" height="466" key="DebuggerActiveHint" timestamp="1576842851084">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1576842851084" />
+    <state x="411" y="162" key="FileChooserDialogImpl" timestamp="1577016766118">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="411" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577016766118" />
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1577029780441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577029780441" />
+    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1577029780441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577029780441" />
+    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1577029780441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577029780441" />
+    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1577029780441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577029780441" />
+    <state width="1493" height="200" key="GridCell.Tab.1.bottom" timestamp="1577029104402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="200" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577029104402" />
+    <state width="1493" height="200" key="GridCell.Tab.1.center" timestamp="1577029104401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="200" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577029104401" />
+    <state width="1493" height="200" key="GridCell.Tab.1.left" timestamp="1577029104401">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="200" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577029104401" />
+    <state width="1493" height="200" key="GridCell.Tab.1.right" timestamp="1577029104402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="200" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577029104402" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1577023458075">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577023458075" />
+    <state x="668" y="301" width="322" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577028044909">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="668" y="301" width="322" height="221" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1577028044909" />
+    <state x="646" y="281" width="297" height="261" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$1" timestamp="1577024269973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="646" y="281" width="297" height="261" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$1/0.0.1536.824@0.0.1536.824" timestamp="1577024269973" />
+    <state x="128" y="44" key="com.intellij.database.dbimport.ImportDialog" timestamp="1577024254873">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="128" y="44" key="com.intellij.database.dbimport.ImportDialog/0.0.1536.824@0.0.1536.824" timestamp="1577024254873" />
+    <state x="566" y="236" width="403" height="343" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1577024703968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="236" width="403" height="343" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1577024703968" />
+    <state x="391" y="106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1577028093424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1577028093424" />
+    <state x="635" y="158" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1577023891604">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="635" y="158" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1577023891604" />
+    <state x="312" y="147" width="912" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576843027099">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="312" y="147" width="912" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1576843027099" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1577020615837">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1577020615837" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577020770751">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1577020770751" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="pos" />
+        <watch expression="i" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
