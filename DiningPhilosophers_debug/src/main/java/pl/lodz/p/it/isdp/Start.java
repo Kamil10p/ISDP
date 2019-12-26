@@ -44,6 +44,7 @@ public class Start {
                 threads[i] = new Thread(new PhilosopherRunnable(table, philosopher));
                 threads[i].setName("Wątek reprezentujący filozofa " + (i + 1));
                 threads[i].start();
+                Thread.sleep(THREADS_STATE_DELAY);
             }
         } catch (NumberFormatException nfe) {
             System.out.println("Podany argument nie jest liczbą.");
