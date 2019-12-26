@@ -46,7 +46,7 @@ public class Start {
                 threads[i].start();
             }
         } catch (NumberFormatException nfe) {
-            System.out.println("Podany argument nie jest liczbą.");
+            System.err.println("Podany argument nie jest liczbą.");
             System.exit(2);
         } catch (Throwable ex) {
             System.err.println("Wystąpił wyjątek typu: " + ex.getClass().getName() + " Szczegóły: " + ex.getMessage());
