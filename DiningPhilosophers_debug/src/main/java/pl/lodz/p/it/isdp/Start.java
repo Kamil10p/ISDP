@@ -27,7 +27,6 @@ import pl.lodz.p.it.isdp.model.TableModel;
  */
 public class Start {
 
-    public static final int THREADS_STATE_DELAY = 60;
     private static Thread[] threads;
 
     public static void main(String[] args) {
