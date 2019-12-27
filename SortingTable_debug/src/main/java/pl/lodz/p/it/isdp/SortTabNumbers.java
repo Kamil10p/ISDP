@@ -2,6 +2,7 @@ package pl.lodz.p.it.isdp;
 
 import java.sql.SQLException;
 import java.util.Arrays;
+import java.util.Map;
 
 /**
  * Uwaga: Klasa zawiera błędy, które trzeba zidentyfikować i usunąć z
@@ -31,12 +32,21 @@ public class SortTabNumbers {
                 }
             }
         }
-        try (Database database = new Database("jdbc:derby:D:/database", "admin", "admin")){
+
+        saveTabToDatabase();
+    }
+
+    private void saveTabToDatabase() {
+        String baseDir = System.getProperty("user.dir");
+
+        String databaseName = System.getenv("DATABASE_NAME");
+        String username = System.getenv("USER_NAME");
+        String password = System.getenv("PASSWORD");
+
+        String url = "jdbc:derby:" + baseDir + "/" + databaseName;
+
+        try (Database database = new Database(url, username, password)) {
             database.saveToDatabase(tab);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }

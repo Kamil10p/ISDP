@@ -22,6 +22,8 @@ public class Start {
             if (sortExample.checkMinOrderSort()) {
                 System.out.println("Po sortowaniu: " + sortExample); //niejawne wywołanie metody sortExample.toString()
             }
+
+
         } catch (NumberFormatException nfe) {
             System.out.println("Podany argument nie jest liczbą");
             System.exit(2);

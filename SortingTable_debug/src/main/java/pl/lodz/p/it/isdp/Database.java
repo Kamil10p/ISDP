@@ -24,6 +24,7 @@ public class Database implements AutoCloseable{
             saveValues(rs.getInt(1),tab);
         }
 
+        connection.close();
     }
 
     void saveValues(int saveId, long[] tab) throws SQLException {

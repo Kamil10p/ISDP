@@ -1,7 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83a47f92-a98b-44f4-b2eb-a8d39ef907ec" name="Default Changelist" comment="" />
+    <list default="true" id="83a47f92-a98b-44f4-b2eb-a8d39ef907ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/089cb417-f579-4736-9d97-1067e0fa7570.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/089cb417-f579-4736-9d97-1067e0fa7570/storage_v2/_src_/schema/NEW_SCHEMA.QMk85Q.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/089cb417-f579-4736-9d97-1067e0fa7570/storage_v2/_src_/schema/SYS.rUIBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/089cb417-f579-4736-9d97-1067e0fa7570/storage_v2/_src_/schema/SYSCS_UTIL.JC_i2A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/089cb417-f579-4736-9d97-1067e0fa7570/storage_v2/_src_/schema/SYSIBM.hzyvkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/089cb417-f579-4736-9d97-1067e0fa7570/storage_v2/_src_/schema/values.Ip3lzg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1299ab1-72cc-49b0-8a98-b9b2dad1b0da.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d1299ab1-72cc-49b0-8a98-b9b2dad1b0da.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/log/log.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/log/log1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/log/logmirror.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c101.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c111.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c121.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c130.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c141.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c150.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c161.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c171.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c180.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c191.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c1a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c1b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c1c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c1d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c1e0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c1f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c200.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c211.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c221.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c230.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c241.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c251.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c260.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c271.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c281.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c290.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c2a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c2b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c2c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c2d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c2e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c2f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c300.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c31.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c311.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c321.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c331.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c340.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c351.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c361.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c371.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c380.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c391.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c3a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c3b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c3c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c3d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c3e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c3f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c400.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c41.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c411.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c421.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c430.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c441.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c451.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c461.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c470.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c481.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c51.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c550.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c561.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c5a0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c5b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c5c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c71.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c81.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/c90.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/ca1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/cb1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/cc0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/cd1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/ce1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seg0/cf0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/lodz/p/it/isdp/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/lodz/p/it/isdp/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/lodz/p/it/isdp/SortTabNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/lodz/p/it/isdp/SortTabNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/lodz/p/it/isdp/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/lodz/p/it/isdp/Start.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +152,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1VAf9BBQg5azRuWaagPj0On1DP8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -59,8 +165,10 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="derby" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/database" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -107,17 +215,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:sortedTables" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@6ae6a222" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:sortedTables" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@71eac662" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:sortedTables" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@46315478" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@15cf7115" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -142,6 +240,9 @@
       <workItem from="1576842610994" duration="3701000" />
       <workItem from="1576932973629" duration="8093000" />
       <workItem from="1577016688040" duration="12064000" />
+      <workItem from="1577446227735" duration="1881000" />
+      <workItem from="1577448288449" duration="94000" />
+      <workItem from="1577448560826" duration="1877000" />
     </task>
     <servers />
   </component>
@@ -149,10 +250,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="212" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577028698448">
+    <state x="24" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577448719630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="212" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577028698448" />
+    <state x="24" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577448719630" />
+    <state x="537" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577447185658">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1577447185658" />
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1577029454894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -165,42 +270,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="391" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1576842851084" />
-    <state x="411" y="162" key="FileChooserDialogImpl" timestamp="1577016766118">
+    <state x="411" y="162" key="FileChooserDialogImpl" timestamp="1577448695648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="411" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577016766118" />
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom" timestamp="1577029780441">
+    <state x="411" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577448695648" />
+    <state width="1493" height="550" key="GridCell.Tab.0.bottom" timestamp="1577450440978">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577029780441" />
-    <state width="1493" height="191" key="GridCell.Tab.0.center" timestamp="1577029780441">
+    <state width="1493" height="550" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577450440978" />
+    <state width="1493" height="550" key="GridCell.Tab.0.center" timestamp="1577450440978">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577029780441" />
-    <state width="1493" height="191" key="GridCell.Tab.0.left" timestamp="1577029780441">
+    <state width="1493" height="550" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577450440978" />
+    <state width="1493" height="550" key="GridCell.Tab.0.left" timestamp="1577450440978">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577029780441" />
-    <state width="1493" height="191" key="GridCell.Tab.0.right" timestamp="1577029780441">
+    <state width="1493" height="550" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577450440978" />
+    <state width="1493" height="550" key="GridCell.Tab.0.right" timestamp="1577450440978">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="191" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577029780441" />
-    <state width="1493" height="200" key="GridCell.Tab.1.bottom" timestamp="1577029104402">
+    <state width="1493" height="550" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577450440978" />
+    <state width="1493" height="550" key="GridCell.Tab.1.bottom" timestamp="1577450440979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577029104402" />
-    <state width="1493" height="200" key="GridCell.Tab.1.center" timestamp="1577029104401">
+    <state width="1493" height="550" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577450440979" />
+    <state width="1493" height="550" key="GridCell.Tab.1.center" timestamp="1577450440979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577029104401" />
-    <state width="1493" height="200" key="GridCell.Tab.1.left" timestamp="1577029104401">
+    <state width="1493" height="550" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577450440979" />
+    <state width="1493" height="550" key="GridCell.Tab.1.left" timestamp="1577450440979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577029104401" />
-    <state width="1493" height="200" key="GridCell.Tab.1.right" timestamp="1577029104402">
+    <state width="1493" height="550" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577450440979" />
+    <state width="1493" height="550" key="GridCell.Tab.1.right" timestamp="1577450440979">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577029104402" />
+    <state width="1493" height="550" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577450440979" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1577448741538">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1577448741538" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1577023458075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -221,14 +330,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="236" width="403" height="343" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1577024703968" />
-    <state x="391" y="106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1577028093424">
+    <state x="391" y="106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1577447141671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1577028093424" />
+    <state x="391" y="106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1577447141671" />
     <state x="635" y="158" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1577023891604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="635" y="158" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.824@0.0.1536.824" timestamp="1577023891604" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1577448563187">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577448563187" />
     <state x="312" y="147" width="912" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576843027099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
