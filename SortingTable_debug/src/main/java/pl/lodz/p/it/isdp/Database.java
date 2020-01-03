@@ -23,8 +23,6 @@ public class Database implements AutoCloseable{
         if (rs.next()) {
             saveValues(rs.getInt(1),tab);
         }
-
-        connection.close();
     }
 
     void saveValues(int saveId, long[] tab) throws SQLException {
