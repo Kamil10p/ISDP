@@ -3,6 +3,8 @@ package pl.lodz.p.it.isdp;
 import pl.lodz.p.it.isdp.model.PhilosopherModel;
 import pl.lodz.p.it.isdp.model.TableModel;
 
+import java.util.concurrent.Semaphore;
+
 /**
  * Aplikacja przygotowana do celów diagnostycznych, która prezentuje przykładowe
  * rozwiązanie problemu ucztujących filozofów. Krótki opis problemu: przy
@@ -34,19 +36,31 @@ public class Start {
             System.out.println("Brak podanej liczby całkowitej jako argumentu wywołania.");
             System.exit(1);
         }
+        Thread.UncaughtExceptionHandler handler = new Thread.UncaughtExceptionHandler() {
+            @Override
+            public void uncaughtException(Thread t, Throwable e) {
+                System.out.println("Wystąpił wyjątek typu: " + e.getClass().getName() + "\nW wątku o nazwie: " + t.getName() + "\nSzczegóły: " + e.getMessage());
+                System.exit(5);
+            }
+        };
         try {
             final int PHILOSOPHERS_NUMBER = Integer.parseInt(args[0].trim());
             threads = new Thread[PHILOSOPHERS_NUMBER];
+            Semaphore sem = new Semaphore(PHILOSOPHERS_NUMBER - 1);
             TableModel table = new TableModel(PHILOSOPHERS_NUMBER);
             for (int i = 0; i < PHILOSOPHERS_NUMBER; i++) {
                 PhilosopherModel philosopher = new PhilosopherModel(i + 1);
-                threads[i] = new Thread(new PhilosopherRunnable(table, philosopher));
+                threads[i] = new Thread(new PhilosopherRunnable(table, philosopher, sem));
                 threads[i].setName("Wątek reprezentujący filozofa " + (i + 1));
+                threads[i].setUncaughtExceptionHandler(handler);
                 threads[i].start();
             }
         } catch (NumberFormatException nfe) {
             System.err.println("Podany argument nie jest liczbą.");
             System.exit(2);
+        }   catch (IllegalArgumentException ex) {
+            System.err.println(ex.getMessage());
+            System.exit(4);
         } catch (Throwable ex) {
             System.err.println("Wystąpił wyjątek typu: " + ex.getClass().getName() + " Szczegóły: " + ex.getMessage());
             System.exit(3);

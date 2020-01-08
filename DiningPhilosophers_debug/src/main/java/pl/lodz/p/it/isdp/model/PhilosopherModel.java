@@ -7,8 +7,8 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class PhilosopherModel {
 
-    private static final int MAX_EAT_TIME = 30;
-    private static final int MAX_REST_TIME = 20;
+    private static final int MAX_EAT_TIME = 20;
+    private static final int MAX_REST_TIME = 30;
     private static final int MIN_REST_TIME = MAX_REST_TIME / 2;
     private boolean isEating = false;
     private long mealsNumber;
