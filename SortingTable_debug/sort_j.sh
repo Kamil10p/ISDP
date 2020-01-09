@@ -1,8 +1,8 @@
 #!/usr/bin/expect
 set timeout 3
-spawn mkdir ./SortingTable_debug/target
-spawn javac -g ./SortingTable_debug/src/main/java/pl/lodz/p/it/isdp/SortTabNumbers.java ./SortingTable_debug/src/main/java/pl/lodz/p/it/isdp/Start.java -d ./SortingTable_debug/target
-spawn jdb -classpath ./SortingTable_debug/target -sourcepath ./SortingTable_debug/src/main/java  pl.lodz.p.it.isdp.Start 10
+spawn mvn compile
+expect "\\\[INFO\\\] BUILD SUCCESS"
+spawn jdb -classpath ./target/classes -sourcepath ./src/main/java  pl.lodz.p.it.isdp.Start 10
 expect ">"
 send "stop in pl.lodz.p.it.isdp.SortTabNumbers.sort\r"
 expect ">"
