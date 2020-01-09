@@ -53,9 +53,10 @@ public class SortTabNumbers {
     }
 
     private void swap(final int i, final int j) {
+        long tmp = tab[i];
         tab[i] = tab[j];
-        tab[j] = tab[i];
-    }
+        tab[j] = tmp;
+    };
 
     public boolean checkMinOrderSort() {
         for (int k = 0; k < tab.length - 1; k++) {
