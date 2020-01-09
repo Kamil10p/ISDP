@@ -1,5 +1,5 @@
 #!/usr/bin/expect
-set timeout 1
+set timeout 2
 spawn mvn compile
 expect "\\\[INFO\\\] BUILD SUCCESS"
 spawn jdb -classpath ./target/classes -sourcepath ./src/main/java  pl.lodz.p.it.isdp.Start 10
