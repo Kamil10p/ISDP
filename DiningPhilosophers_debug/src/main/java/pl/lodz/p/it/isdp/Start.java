@@ -39,7 +39,8 @@ public class Start {
         Thread.UncaughtExceptionHandler handler = new Thread.UncaughtExceptionHandler() {
             @Override
             public void uncaughtException(Thread t, Throwable e) {
-                System.out.println("Wystąpił wyjątek typu: " + e.getClass().getName() + "\nW wątku o nazwie: " + t.getName() + "\nSzczegóły: " + e.getMessage());
+                System.out.println("Wystąpił wyjątek typu: " + e.getClass().getName() + "\nW wątku o nazwie: "
+                        + t.getName() + "\nSzczegóły: " + e.getMessage());
                 System.exit(5);
             }
         };
@@ -58,9 +59,6 @@ public class Start {
         } catch (NumberFormatException nfe) {
             System.err.println("Podany argument nie jest liczbą.");
             System.exit(2);
-        }   catch (IllegalArgumentException ex) {
-            System.err.println(ex.getMessage());
-            System.exit(4);
         } catch (Throwable ex) {
             System.err.println("Wystąpił wyjątek typu: " + ex.getClass().getName() + " Szczegóły: " + ex.getMessage());
             System.exit(3);

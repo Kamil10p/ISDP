@@ -44,6 +44,10 @@ public class PhilosopherModel {
         Thread.sleep(time);
     }
 
+    public long getMealsNumber() {
+        return mealsNumber;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("Wątek reprezentujący filozofa " + id + " obecenie ");
